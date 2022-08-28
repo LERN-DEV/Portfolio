@@ -110,7 +110,7 @@ html, body
 section#inicio
 {
     /*Background*/
-    background-image: url(./img/Background.jpg);
+    background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -180,6 +180,26 @@ i.menu-mobile
 {
     /*Voltar margem*/ 
     left: 0;
+}
+
+*::-webkit-scrollbar 
+{
+    /*Estilizar ScrollBar*/ 
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track
+{
+    /*Estilizar ScrollBar*/ 
+    width: 12px;
+    box-shadow: inset 0 0 .3rem 1#00000050;
+    background-color: #fff;
+}
+
+* ::-webkit-scrollbar-thumb 
+{
+    /*Estilizar ScrollBar*/ 
+    background-color: #252c90;
 }
 
 /*Configurações de responsividade*/
