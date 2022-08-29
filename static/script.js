@@ -21,3 +21,22 @@ navItem.forEach(item => {
         }
     })
 })
+
+/*Animar atribuitos anim*/
+const item = document.querySelectorAll("[data-anim]");
+const animScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.85;
+
+    item.forEach((element) =>{
+        if (windowTop > element.offsetTop){
+            element.classList.add("animate");
+        } else{
+            element.classList.remove("animate");
+        }
+    });
+}
+animScroll()
+
+window.addEventListener("scroll", ()=> {
+    animScroll();
+})
