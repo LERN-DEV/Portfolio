@@ -53,3 +53,14 @@ btnEnviar.style.display = "none"
 setTimeout(() => {
     document.querySelector('#alerta').style.display = 'none';
     }, 8000)
+
+
+// Tiped animation subtitle
+
+var typed = new Typed("#subtitle",{
+    strings: ["WebDeveloper | GameDeveloper"], 
+    typeSpeed:100, 
+    backSpeed:30,
+    loop:false,
+    showCursor: false
+})

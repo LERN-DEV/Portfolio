@@ -123,7 +123,13 @@ section#inicio h2 {
 
 section#inicio span#subtitle {
     /*span inicio*/
-    margin-right: 7rem;
+    position: absolute;
+    font-size: 1rem;
+}
+
+section#inicio span{
+    /*span inicio*/
+    margin-right: 21rem;
     font-size: 1rem;
 }
 
@@ -202,11 +208,15 @@ i.menu-mobile {
         font-size: 3.5rem;
     }
 
-    section#inicio span#subtitle {
-        margin-right: 0;
+    section#inicio span {
+        margin-right: 0rem;
         font-size: 1rem;
     }
 
+    section#inicio span#subtitle {
+        /*span inicio*/
+        position:relative;
+    }
     #main {
         margin-left: 0px;
     }
