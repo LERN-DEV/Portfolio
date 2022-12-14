@@ -107,7 +107,7 @@ body {
 
 section#inicio {
     /*Background*/
-    background-image: url(./img/Background.png);
+    background-color: #050d18;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -123,7 +123,7 @@ section#inicio h2 {
 
 section#inicio span#subtitle {
     /*span inicio*/
-    position: absolute;
+    position:absolute;
     font-size: 1rem;
 }
 
@@ -140,7 +140,7 @@ section#inicio span{
 
 section#inicio div#arraste {
     /*texto rodape inicio arraste para baixo*/
-    width: 9rem;
+    right: 9rem;
 }
 
 section#inicio div#arraste a {
@@ -320,17 +320,6 @@ section-bg {
     [data-anim="right"] {
         transform: translate3d(-100%, 0, 0);
     }
-}
-
-#btn-enviar-loader{
-    display: none;
-}
-
-#alerta{
-    position: fixed;
-    z-index: 10;
-    top: 30px;
-    right: 30px;
 }
 
 #footer{
