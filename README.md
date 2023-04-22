@@ -5,8 +5,8 @@
     <strong>Você pode acessar a demonstração do projeto no Github Pages:</strong>
   </span> 
   <br>
-  <a href="lernencode.github.io/Portfolio/" target="_blank">
-    <span style="font-size:larger;">lernencode.github.io/Portfolio/</span>
+  <a href="https://lernencode.github.io/Portfolio/" target="_blank">
+    <span style="font-size:larger;">https://lernencode.github.io/Portfolio/</span>
   </a>
   
   ![image](https://user-images.githubusercontent.com/96671069/233789279-7700b3ed-8790-40c4-b4ff-279029bf4146.png)
