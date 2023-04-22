@@ -19,6 +19,18 @@
     --main-color: #007acc;
 }
 
+html ::-webkit-scrollbar {
+    width: 7px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+html ::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
