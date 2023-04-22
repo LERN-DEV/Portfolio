@@ -6,7 +6,7 @@
   </span> 
   <br>
   <a href="https://lernencode.github.io/simple-todo-list/" target="_blank">
-    <span style="font-size:larger;">https://lernencode.github.io/Portfolio/</span>
+    <span style="font-size:larger;">lernencode.github.io/Portfolio//</span>
   </a>
   
   ![image](https://user-images.githubusercontent.com/96671069/233789279-7700b3ed-8790-40c4-b4ff-279029bf4146.png)
