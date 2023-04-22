@@ -12,10 +12,11 @@
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #f5f5f5;
+    --second-bg-color: #e6e6e6;
+    --text-color: #444444;
+    --secondtext-color: #ffffff;
+    --main-color: #007acc;
 }
 
 html{
@@ -175,6 +176,9 @@ section{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+}
+.portfolio-box p {
+    color: var(--secondtext-color);
 }
 
 .portfolio-box img {
